@@ -1,0 +1,89 @@
+Task 2  Exploring The Website
+------------------------------
+
+
+
+
+Home Page
+• URL: /
+• Summary: This page provides an overview of Acme IT Support's services and includes a company photo featuring their staff.
+Latest News
+• URL: /news
+• Summary: This page displays a list of recently published news articles by Acme IT Support. Each article is associated with a unique ID number and can be accessed via its URL, such as /news/article?id=1.
+News Article
+• URL: /news/article?id=1 (Example URL)
+• Summary: This page presents an individual news article from Acme IT Support's collection. Some articles may be restricted to premium customers only.
+Contact Page
+• URL: /contact
+• Summary: This page features a contact form that allows customers to get in touch with Acme IT Support. It includes input fields for name, email, and message, along with a send button.
+Customers
+• URL: /customers
+• Summary: This link redirects to /customers/login and serves as the entry point for customer-related functionality.
+Customer Login
+• URL: /customers/login
+• Summary: This page presents a login form for customers to access their accounts. It includes fields for entering a username and password.
+Customer Signup
+• URL: /customers/signup
+• Summary: This page provides a user-signup form where new customers can create an account. The form includes fields for username, email, password, and password confirmation.
+Customer Reset Password
+• URL: /customers/reset
+• Summary: This page offers a password reset form where customers can enter their email address to initiate the password recovery process.
+Customer Dashboard
+• URL: /customers
+• Summary: This page serves as the customer's dashboard, displaying a list of their submitted tickets to Acme IT Support. It also includes a "Create Ticket" button for initiating a new support request.
+Create Ticket
+• URL: /customers/ticket/new
+• Summary: This page features a form for customers to create a new IT support ticket. It includes a textbox for describing the IT issue and an option to upload any relevant files.
+Customer Account
+• URL: /customers/account
+• Summary: This page allows customers to manage their account settings. They can edit their username, email, and password through this page.
+Customer Logout
+• URL: /customers/logout
+• Summary: Clicking this link logs the customer out of the customer area, terminating their session.
+
+
+
+Task 3  Viewing The Page Source
+--------------------------------
+
+
+What is the flag from the HTML comment?	THM{HTML_COMMENTS_ARE_DANGEROUS}
+
+
+
+What is the flag from the secret link?	THM{NOT_A_SECRET_ANYMORE}
+
+
+
+What is the directory listing flag?	THM{INVALID_DIRECTORY_PERMISSIONS}
+
+
+What is the framework flag?	THM{KEEP_YOUR_SOFTWARE_UPDATED}
+
+
+
+Task 4  Developer Tools - Inspector
+-----------------------------------
+
+
+What is the flag behind the paywall?
+
+
+THM{NOT_SO_HIDDEN}
+
+
+
+Task 5  Developer Tools - Debugger
+----------------------------------
+
+
+What is the flag in the red box?
+>THM{CATCH_ME_IF_YOU_CAN}
+
+Task 6  Developer Tools - Network
+----------------------------------
+
+
+What is the flag shown on the contact-msg network request?
+
+THM{GOT_AJAX_FLAG}
